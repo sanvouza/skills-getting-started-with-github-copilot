@@ -97,26 +97,26 @@ body.dark-mode .activity-card {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: disc;
-  color: #555;
-  background-color: #f1f1f1;
+  color: #333; /* Updated for better contrast in light mode */
+  background-color: #f9f9f9; /* Slightly lighter for better readability */
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ddd;
 }
 
 body.dark-mode .activity-card ul {
-  background-color: #2a2a2a;
-  border-color: #444;
+  background-color: #1f1f1f; /* Darker background for better contrast in dark mode */
+  border-color: #555;
 }
 
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
-  color: #333;
+  color: #444; /* Updated for better readability in light mode */
 }
 
 body.dark-mode .activity-card ul li {
-  color: #e0e0e0;
+  color: #ccc; /* Softer contrast for better readability in dark mode */
 }
 
 .form-group {
