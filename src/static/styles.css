@@ -98,6 +98,10 @@ body.dark-mode .activity-card {
   padding-left: 20px;
   list-style-type: disc;
   color: #555;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
 }
 
 body.dark-mode .activity-card ul {
